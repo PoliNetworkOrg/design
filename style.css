@@ -1,0 +1,80 @@
+@font-face {
+  font-family: sansregular;
+  src: url("/assets/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: sansbold;
+  src: url("/assets/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: sanslight;
+  src: url("/assets/OpenSans-Light.ttf");
+}
+
+:root {
+  --white: #ffffff;
+  --fucsia: #dc3189;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "sansregular";
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: var(--white);
+  font-family: "sansbold";
+  font-size: 3rem;
+}
+
+h2 {
+  color: var(--fucsia);
+  font-size: 2rem;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+}
+
+main {
+  position: relative;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.intro {
+  height: 70vh;
+  background: linear-gradient(96.75deg, #dc3189 14.87%, #dc9831 104.61%);
+}
+
+.corsi {
+  height: 50vh;
+  background-color: var(--white);
+}
+
+footer {
+  position: relative;
+  height: 50px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
