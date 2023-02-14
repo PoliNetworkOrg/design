@@ -1,17 +1,42 @@
 ---
+import ButtonUrl from './ButtonUrl.astro';
 import Tab from './Tab.astro';
 
 export interface Props {
 	slug: string;
 	Language: string;
+	prefix_tg?: string;
+	group_id_tg: string;
+	prefix_wa?: string;
+	group_id_wa: string;
 }
-const { slug, Language } = Astro.props;
+const { slug, Language, prefix_tg, group_id_tg, prefix_wa, group_id_wa } = Astro.props;
 ---
 
 <section
 	class="mx-auto w-[90%] md:w-[60%] text-white overflow-hidden flex flex-col items-center my-[4vh] rounded-[20px] shadow_box"
 >
-	<h2 class="my-50px text-3xl w-9/10 md:w-4/6 text-center"><slot /></h2>
+	<h2 class="mt-50px mb-15px text-3xl w-9/10 md:w-4/6 text-center"><slot /></h2>
+	<div class="grid grid-cols-2 gap-6 my-15px">
+		<ButtonUrl
+			icon_class="fa fa-telegram"
+			classes="cursor-pointer w-full hover:bg-fucsia hover:text-white bg-white no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white rounded-lg border-1 border-solid text-fucsia border-fucsia"
+			name={Language == 'it' ? 'Gruppo' : 'Group'}
+			platform="tg"
+			group_id={group_id_tg}
+			prefix={prefix_tg}
+			random={slug + '--' + Math.random()}
+		/>
+		<ButtonUrl
+			icon_class="fa fa-whatsapp"
+			classes="cursor-pointer w-full hover:bg-fucsia hover:text-white bg-white no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white rounded-lg border-1 border-solid text-fucsia border-fucsia"
+			name={Language == 'it' ? 'Community' : 'Community'}
+			platform="wa"
+			group_id={group_id_wa}
+			prefix={prefix_wa}
+			random={slug + '--' + Math.random()}
+		/>
+	</div>
 	<article class="w-full overflow-hidden">
 		<div
 			class="hover:translate-y-1/20 hover:animate-pulse transform flex flex-col items-center justify-center text-fucsia cursor-pointer transition-all duration-500 p-[1em]"

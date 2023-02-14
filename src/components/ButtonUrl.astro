@@ -6,15 +6,24 @@ export interface Props {
 	prefix?: string;
 	icon_class: string;
 	random: string;
+	classes?: string;
 }
-const { name, group_id, platform, prefix, icon_class, random } = Astro.props;
+const { name, group_id, platform, prefix, icon_class, random, classes } = Astro.props;
 ---
 
 <div
 	id={random}
-	class="cursor-pointer w-full bg-white text-fucsia no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white px-5 py-[15px] rounded-lg border-1 border-solid hover:bg-zero hover:text-white hover:border-white hover:color-white hover:font-[sansbold]"
+	class={classes == undefined
+		? 'cursor-pointer w-full bg-white text-fucsia no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white rounded-lg border-1 border-solid hover:bg-zero hover:text-white hover:border-white hover:color-white'
+		: classes}
 >
-	<i class={icon_class + ' mr-2'} aria-hidden="true"></i>{name}
+	<div class="grid grid-cols-[min-content_auto] py-15px px-5">
+		<i class={icon_class + ' ml-0 mr-1 my-auto w-14px h-14px'} aria-hidden="true"></i><p
+			class="text-center inline-block m-auto"
+		>
+			{name}
+		</p>
+	</div>
 </div>
 
 <script define:vars={{ group_id, platform, prefix, random }}>
