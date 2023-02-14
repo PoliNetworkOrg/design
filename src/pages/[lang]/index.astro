@@ -1,0 +1,14 @@
+---
+import Root from '~/layouts/Root.astro';
+import { Languages } from '../../utils/types';
+export async function getStaticPaths() {
+	return Languages.values().map((language: any) => {
+		return {
+			params: { lang: language },
+			props: { language },
+		};
+	});
+}
+---
+
+<Root />
