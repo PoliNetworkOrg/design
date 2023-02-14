@@ -3,8 +3,9 @@ import Tab from './Tab.astro';
 
 export interface Props {
 	slug: string;
+	Language: string;
 }
-const { slug } = Astro.props;
+const { slug, Language } = Astro.props;
 ---
 
 <section
@@ -16,11 +17,11 @@ const { slug } = Astro.props;
 			class="hover:translate-y-1/20 hover:animate-pulse transform flex flex-col items-center justify-center text-fucsia cursor-pointer transition-all duration-500 p-[1em]"
 			id={'tab_activator' + slug}
 		>
-			<p class="text-md">Vedi tutti i gruppi</p>
+			<p class="text-md">{Language == 'it' ? <>Vedi tutti i gruppi</> : <>Check out all our groups</>}</p>
 			<i class="fa fa-caret-down transition-transform duration-500" id={'tab_arrow' + slug}></i>
 		</div>
 		<div class="max-h-0 h-full transition-all ease-in-out duration-300" id={'tab' + slug}>
-			<Tab />
+			<Tab Language={Language} />
 		</div>
 	</article>
 </section>

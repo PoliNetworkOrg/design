@@ -1,6 +1,9 @@
 ---
-import Root from '~/layouts/Root.astro';
+import ButtonMain from '~/components/ButtonMain.astro';
+import Default from '~/layouts/Default.astro';
+import Section from '~/components/Section.astro';
 import { Languages } from '../../utils/types';
+
 export async function getStaticPaths() {
 	return Languages.values().map((language: any) => {
 		return {
@@ -9,6 +12,84 @@ export async function getStaticPaths() {
 		};
 	});
 }
+const { language } = Astro.props;
 ---
 
-<Root />
+<Default title="Design">
+	<header class="relative">
+		<nav class="background_gradient h-[70vh] flex flex-col w-full items-center justify-center">
+			<h1 class="mb-50px text-5xl font-bold mx-auto text-center">
+				{language == 'it' ? <>Scuola del Design</> : <>School of Design</>}
+			</h1>
+			<div class="grid grid-cols-2 gap-6">
+				<ButtonMain icon_class="fa fa-telegram" name={language == 'it' ? 'CANALE' : 'CHANNEL'} url="" />
+				<ButtonMain icon_class="fa fa-telegram" name={language == 'it' ? 'GRUPPO' : 'GROUP'} url="" />
+			</div>
+		</nav>
+	</header>
+
+	<main class="relative flex flex-col py-50px">
+		<Section Language={language} slug="1"
+			>{
+				language == 'it' ? (
+					<>
+						Design della <b>Comunicazione</b>
+					</>
+				) : (
+					<>
+						<b>Communication</b> Design
+					</>
+				)
+			}</Section
+		>
+		<Section Language={language} slug="2"
+			>{
+				language == 'it' ? (
+					<>
+						Design della <b>Comunicazione</b>
+					</>
+				) : (
+					<>
+						<b>Fashion</b> Design
+					</>
+				)
+			}</Section
+		>
+		<Section Language={language} slug="3"
+			>{
+				language == 'it' ? (
+					<>
+						Design della <b>Comunicazione</b>
+					</>
+				) : (
+					<>
+						<b>Product</b> Design
+					</>
+				)
+			}</Section
+		>
+		<Section Language={language} slug="4"
+			>{
+				language == 'it' ? (
+					<>
+						Design della <b>Comunicazione</b>
+					</>
+				) : (
+					<>
+						<b>Internal</b> Design
+					</>
+				)
+			}</Section
+		>
+		<Section Language={language} slug="5">
+			Design
+			<b> Engineering</b><br />
+			<b> Product Service System</b>
+			Design
+			<br />
+			<b>Digital Interaction</b> Design
+		</Section>
+	</main>
+
+	<footer>PoliNetwork</footer>
+</Default>

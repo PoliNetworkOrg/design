@@ -1,9 +1,13 @@
 ---
 import ButtonMain from './ButtonMain.astro';
+export interface Props {
+	Language: string;
+}
+const { Language } = Astro.props;
 ---
 
 <figure class="w-full flex flex-col items-center text-white px-[1em] py-0 bg-fucsia grid gap-y-5 pb-5">
-	<h3 class="m-5 mx-auto font-bold text-lg">Triennale</h3>
+	<h3 class="m-5 mx-auto font-bold text-lg">{Language == 'it' ? <>Triennale</> : <>Bachelor</>}</h3>
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
 		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
 		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
@@ -19,7 +23,7 @@ import ButtonMain from './ButtonMain.astro';
 		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Terzo anno LT" url="#" />
 		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Terzo anno LT" url="#" />
 	</div>
-	<h3 class="m-5 m-auto font-bold">Magistrale</h3>
+	<h3 class="m-5 m-auto font-bold">{Language == 'it' ? <>Magistrale</> : <>Master</>}</h3>
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
 		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
 		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
