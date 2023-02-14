@@ -21,7 +21,7 @@ const { slug, Language } = Astro.props;
 			<i class="fa fa-caret-down transition-transform duration-500" id={'tab_arrow' + slug}></i>
 		</div>
 		<div class="max-h-0 h-full transition-all ease-in-out duration-300" id={'tab' + slug}>
-			<Tab Language={Language} />
+			<Tab Language={Language} slug={slug} />
 		</div>
 	</article>
 </section>

@@ -22,14 +22,22 @@ const { language } = Astro.props;
 				{language == 'it' ? <>Scuola del Design</> : <>School of Design</>}
 			</h1>
 			<div class="grid grid-cols-2 gap-6">
-				<ButtonMain icon_class="fa fa-telegram" name={language == 'it' ? 'CANALE' : 'CHANNEL'} url="" />
-				<ButtonMain icon_class="fa fa-telegram" name={language == 'it' ? 'GRUPPO' : 'GROUP'} url="" />
+				<ButtonMain
+					icon_class="fa fa-telegram"
+					name={language == 'it' ? 'CANALE' : 'CHANNEL'}
+					url="https://t.me/designpolimichannel"
+				/>
+				<ButtonMain
+					icon_class="fa fa-telegram"
+					name={language == 'it' ? 'GRUPPO' : 'GROUP'}
+					url="https://t.me/designpolimi"
+				/>
 			</div>
 		</nav>
 	</header>
 
 	<main class="relative flex flex-col py-50px">
-		<Section Language={language} slug="1"
+		<Section Language={language} slug="c"
 			>{
 				language == 'it' ? (
 					<>
@@ -42,11 +50,11 @@ const { language } = Astro.props;
 				)
 			}</Section
 		>
-		<Section Language={language} slug="2"
+		<Section Language={language} slug="m"
 			>{
 				language == 'it' ? (
 					<>
-						Design della <b>Comunicazione</b>
+						Design della <b>Moda</b>
 					</>
 				) : (
 					<>
@@ -55,11 +63,11 @@ const { language } = Astro.props;
 				)
 			}</Section
 		>
-		<Section Language={language} slug="3"
+		<Section Language={language} slug="p"
 			>{
 				language == 'it' ? (
 					<>
-						Design della <b>Comunicazione</b>
+						Design del <b>Prodotto</b>
 					</>
 				) : (
 					<>
@@ -68,11 +76,11 @@ const { language } = Astro.props;
 				)
 			}</Section
 		>
-		<Section Language={language} slug="4"
+		<Section Language={language} slug="i"
 			>{
 				language == 'it' ? (
 					<>
-						Design della <b>Comunicazione</b>
+						Design degli <b>Interni</b>
 					</>
 				) : (
 					<>
@@ -81,7 +89,7 @@ const { language } = Astro.props;
 				)
 			}</Section
 		>
-		<Section Language={language} slug="5">
+		<Section Language={language} slug="mas">
 			Design
 			<b> Engineering</b><br />
 			<b> Product Service System</b>

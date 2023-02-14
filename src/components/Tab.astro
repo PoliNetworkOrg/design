@@ -1,42 +1,40 @@
 ---
-import ButtonMain from './ButtonMain.astro';
 export interface Props {
 	Language: string;
+	slug: string;
 }
-const { Language } = Astro.props;
+import raw_data from '../assets/data.json';
+import TabLine from './TabLine.astro';
+const { Language, slug } = Astro.props;
+let data = raw_data.links.filter((e) => e.course_id == slug);
+let years: {
+	course_id: string;
+	group_id: string;
+	platform: string;
+	prefix?: string;
+	id: string;
+	year: number;
+	section: number;
+	display_name: string;
+}[][] = [];
+for (let i = 0; i < data.length; i++) {
+	let year = data[i].year - 1;
+	if (years[year] == undefined) years[year] = [];
+	years[year].push(data[i]);
+}
 ---
 
 <figure class="w-full flex flex-col items-center text-white px-[1em] py-0 bg-fucsia grid gap-y-5 pb-5">
 	<h3 class="m-5 mx-auto font-bold text-lg">{Language == 'it' ? <>Triennale</> : <>Bachelor</>}</h3>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Primo anno LT" url="#" />
-	</div>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Secondo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Secondo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Secondo anno LT" url="#" />
-	</div>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Terzo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Terzo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Terzo anno LT" url="#" />
-	</div>
+	{
+		years.map((e, i) => {
+			if (i < 3) return <TabLine links={e} />;
+		})
+	}
 	<h3 class="m-5 m-auto font-bold">{Language == 'it' ? <>Magistrale</> : <>Master</>}</h3>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Primo anno LT" url="#" />
-	</div>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Primo anno LT" url="#" />
-	</div>
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-y-3 md:gap-y-0 gap-x-5">
-		<ButtonMain icon_class="fa fa-whatsapp" name="C1 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C2 Primo anno LT" url="#" />
-		<ButtonMain icon_class="fa fa-whatsapp" name="C3 Primo anno LT" url="#" />
-	</div>
+	{
+		years.map((e, i) => {
+			if (i >= 3) return <TabLine links={e} />;
+		})
+	}
 </figure>

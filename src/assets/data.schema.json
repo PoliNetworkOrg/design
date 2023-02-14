@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://polinetwork.org/designlinks.schema.json",
+  "title": "Links for design.polinetwork.org Website",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "links": {
+      "type": "array",
+      "items": { "$ref": "#/$link_obj/link" }
+    }
+  },
+  "$link_obj": {
+    "link": {
+      "type": "object",
+      "required": ["course_id", "group_id", "id", "platform", "year", "section", "display_name"],
+      "course_id": {
+        "type": "string",
+        "description": "id of the course",
+        "enum": ["c, p, m, i, mas"]
+      },
+      "year": {
+        "type": "number",
+        "description": "year"
+      },
+      "group_id": {
+        "type": "number",
+        "description": "cardinal of the group inside the course and year"
+      },
+      "section": {
+        "type": "number",
+        "description": "section"
+      },
+      "id": {
+        "description": "Link's unique identifier",
+        "type": "string"
+      },
+      "platform": {
+        "description": "Link platform",
+        "type": "string",
+        "enum": ["wa", "tg"]
+      },
+      "prefix": {
+        "description": "(optional) Prefix for the link between platform prefix and link id",
+        "type": "string"
+      },
+      "display_name": {
+        "description": "Name to display in the website",
+        "type": "string"
+      }
+    }
+  }
+}

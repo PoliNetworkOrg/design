@@ -1,0 +1,114 @@
+{
+  "$schema": "data.schema.json",
+  "links": [
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 1,
+      "section": 1,
+      "display_name": "C1 Primo anno LT",
+      "prefix": "abc"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 1,
+      "section": 2,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 1,
+      "section": 3,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 2,
+      "section": 1,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 2,
+      "section": 2,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 2,
+      "section": 3,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 3,
+      "section": 1,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 3,
+      "section": 2,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 3,
+      "section": 3,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 4,
+      "section": 1,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 4,
+      "section": 2,
+      "display_name": "C1 Primo anno LT"
+    },
+    {
+      "course_id": "c",
+      "group_id": "1",
+      "platform": "wa",
+      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "year": 4,
+      "section": 3,
+      "display_name": "C1 Primo anno LT"
+    }
+  ]
+}
