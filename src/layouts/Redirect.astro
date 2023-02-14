@@ -1,0 +1,39 @@
+---
+import Default from './Default.astro';
+import '../assets/style.css';
+
+export interface Props {
+	title: string;
+	url: URL;
+}
+const { title, url } = Astro.props;
+---
+
+<Default title={title}>
+	<header>
+		<nav class="background_gradient h-screen">
+			<h1>Scuola del Design</h1>
+			<ul>
+				<li>
+					<li>
+						<a id="first-btn" href="./it/"><i class="fa fa-external-link" aria-hidden="true"></i>IT</a>
+					</li>
+					<li>
+						<a id="first-btn" href="./en/"><i class="fa fa-external-link" aria-hidden="true"></i>EN</a>
+					</li>
+				</li>
+			</ul>
+		</nav>
+	</header>
+</Default>
+
+<script type="text/javascript" define:vars={{ url }}>
+	const urlObj = new URL(url);
+	var userLang = navigator.language || navigator.userLanguage;
+	if (userLang.includes('it')) {
+		urlObj.pathname = '/it' + urlObj.pathname;
+	} else {
+		urlObj.pathname = '/en' + urlObj.pathname;
+	}
+	window.location.replace(urlObj.pathname);
+</script>

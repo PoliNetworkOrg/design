@@ -1,0 +1,55 @@
+---
+import Tab from './Tab.astro';
+
+export interface Props {
+	slug: string;
+}
+const { slug } = Astro.props;
+---
+
+<section
+	class="mx-auto w-[90%] md:w-[60%] text-white overflow-hidden flex flex-col items-center my-[4vh] rounded-[20px] shadow_box"
+>
+	<h2 class="my-50px text-3xl w-9/10 md:w-4/6 text-center"><slot /></h2>
+	<article class="w-full overflow-hidden">
+		<div
+			class="hover:translate-y-1/20 hover:animate-pulse transform flex flex-col items-center justify-center text-fucsia cursor-pointer transition-all duration-500 p-[1em]"
+			id={'tab_activator' + slug}
+		>
+			<p class="text-md">Vedi tutti i gruppi</p>
+			<i class="fa fa-caret-down transition-transform duration-500" id={'tab_arrow' + slug}></i>
+		</div>
+		<div class="max-h-0 h-full transition-all ease-in-out duration-300" id={'tab' + slug}>
+			<Tab />
+		</div>
+	</article>
+</section>
+
+<script type="text/javascript" define:vars={{ slug }}>
+	let tab_activator = document.getElementById('tab_activator' + slug);
+	let tab_arrow = document.getElementById('tab_arrow' + slug);
+	let tab = document.getElementById('tab' + slug);
+	let tabOpened = false;
+	const toggleTab = function () {
+		if (tab != null) {
+			tabOpened = tabOpened ? false : true;
+			if (tabOpened) {
+				tab.classList.remove('max-h-0');
+				tab.classList.add('max-h-500');
+			} else {
+				tab.classList.remove('max-h-500');
+				tab.classList.add('max-h-0');
+			}
+		}
+		if (tab_arrow != null) {
+			if (tabOpened) {
+				tab_arrow.style.transform = 'rotate(180deg)';
+			} else {
+				tab_arrow.style.transform = 'rotate(0deg)';
+			}
+		}
+	};
+	if (tab_activator != null) {
+		tab_activator.addEventListener('click', toggleTab);
+	}
+</script>
