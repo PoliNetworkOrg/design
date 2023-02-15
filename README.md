@@ -1,4 +1,4 @@
-# Polinetwork School of Design
+# PoliNetwork School of Design
 
 [![GitHub issues](https://img.shields.io/github/issues/polinetworkorg/design.svg)](https://github.com/polinetworkorg/design/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/polinetworkorg/design.svg)](https://github.com/polinetworkorg/design/commits/master)
