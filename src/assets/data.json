@@ -8,7 +8,7 @@
       "id": "LBZc5PsPZdD4jjPSNx4ZCy",
       "year": 1,
       "section": 1,
-      "display_name": "C1 Primo anno LT",
+      "display_name": "C1 Primo anno LT"
     },
     {
       "course_id": "c",
@@ -109,7 +109,7 @@
       "section": 3,
       "display_name": "C3 1st year LM"
     },
-	{
+    {
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
@@ -143,7 +143,7 @@
       "id": "BbjnvVwR2vkIJrnGd458jr",
       "year": 1,
       "section": 1,
-      "display_name": "M1 Primo anno LT",
+      "display_name": "M1 Primo anno LT"
     },
     {
       "course_id": "m",
@@ -235,7 +235,7 @@
       "section": 2,
       "display_name": "M2 1st year LM"
     },
-	{
+    {
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
@@ -260,7 +260,7 @@
       "id": "KpAQyC2KHKw3aWJ0yJZ0zE",
       "year": 1,
       "section": 1,
-      "display_name": "P1 Primo anno LT",
+      "display_name": "P1 Primo anno LT"
     },
     {
       "course_id": "p",
@@ -405,8 +405,8 @@
       "year": 4,
       "section": 2,
       "display_name": "P2 1st year LM"
-    }, 
-	{
+    },
+    {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
@@ -431,7 +431,7 @@
       "id": "BpOLkTTMjjrIgFdHueH8lS",
       "year": 1,
       "section": 1,
-      "display_name": "I1 Primo anno LT",
+      "display_name": "I1 Primo anno LT"
     },
     {
       "course_id": "i",
@@ -576,7 +576,7 @@
       "year": 4,
       "section": 2,
       "display_name": "IS2 1st year LM"
-    }, 
+    },
     {
       "course_id": "i",
       "group_id": "1",
@@ -585,8 +585,8 @@
       "year": 4,
       "section": 3,
       "display_name": "IS3 1st year LM"
-    }, 
-	{
+    },
+    {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
@@ -630,8 +630,8 @@
       "year": 4,
       "section": 2,
       "display_name": "D&E2 1st year LM"
-    },  
-	{
+    },
+    {
       "course_id": "mas",
       "group_id": "1",
       "platform": "wa",
@@ -666,8 +666,8 @@
       "year": 4,
       "section": 2,
       "display_name": "PSSD2 1st year LM"
-    },  
-	{
+    },
+    {
       "course_id": "mas",
       "group_id": "1",
       "platform": "wa",
@@ -685,7 +685,7 @@
       "section": 2,
       "display_name": "PSSD2 2nd year LM"
     },
-	{
+    {
       "course_id": "mas",
       "group_id": "1",
       "platform": "wa",
@@ -702,8 +702,8 @@
       "year": 4,
       "section": 2,
       "display_name": "DID2 1st year LM"
-    },  
-	{
+    },
+    {
       "course_id": "mas",
       "group_id": "1",
       "platform": "wa",
