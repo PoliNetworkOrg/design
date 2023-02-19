@@ -29,11 +29,9 @@ const { name, group_id, platform, prefix, icon_class, random, classes } = Astro.
 <script define:vars={{ group_id, platform, prefix, random }}>
 	let btn = document.getElementById(random);
 	let url = platform == 'wa' ? 'https://chat.whatsapp.com/' : 'https://t.me/';
-	url += prefix != undefined ? prefix + '/' : '';
-	url += group_id;
-	console.log(url);
 	const click = function () {
-		console.log('opening ', url);
+		url += prefix != undefined ? prefix + '/' : '';
+		url += group_id;
 		window.open(url, '_blank').focus();
 	};
 	if (btn != null) {
