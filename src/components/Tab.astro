@@ -25,13 +25,21 @@ for (let i = 0; i < data.length; i++) {
 ---
 
 <figure class="w-full flex flex-col items-center text-white px-[1em] py-0 bg-fucsia grid gap-y-5 pb-5">
-	<h3 class="m-5 mx-auto font-bold text-lg">{Language == 'it' ? <>Triennale</> : <>Bachelor</>}</h3>
+	{
+		(years[0] != null || years[1] != null || years[2] != null) && (
+			<h3 class="m-5 mx-auto font-bold text-lg">{Language == 'it' ? <>Triennale</> : <>Bachelor</>}</h3>
+		)
+	}
 	{
 		years.map((e, i) => {
 			if (i < 3) return <TabLine links={e} />;
 		})
 	}
-	<h3 class="m-5 m-auto font-bold">{Language == 'it' ? <>Magistrale</> : <>Master</>}</h3>
+	{
+		(years[3] != null || years[4] != null) && (
+			<h3 class="m-5 mx-auto font-bold text-lg">{Language == 'it' ? <>Magistrale</> : <>Master</>}</h3>
+		)
+	}
 	{
 		years.map((e, i) => {
 			if (i >= 3) return <TabLine links={e} />;
