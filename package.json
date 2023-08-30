@@ -38,7 +38,7 @@
     "reading-time": "^1.5.0",
     "sharp": "^0.32.5",
     "subfont": "^6.12.5",
-    "typescript": "^5.1.6",
+    "typescript": "^5.2.2",
     "vite-plugin-windicss": "^1.9.1",
     "windicss": "^3.5.6",
     "yaml-schema-validator": "^1.2.3"
