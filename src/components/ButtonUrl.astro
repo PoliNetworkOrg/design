@@ -30,7 +30,7 @@ const { name, group_id, platform, prefix, icon_class, random, classes } = Astro.
 	let btn = document.getElementById(random);
 	const click = function () {
 		let url = platform == 'wa' ? 'https://chat.whatsapp.com/' : 'https://t.me/';
-		if (platform == 'tg' && prefix == plus) {
+		if (platform == 'tg' && prefix == 'plus') {
 			url += '+';
 		} else {
 			url += prefix != undefined ? prefix + '/' : '';
