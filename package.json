@@ -26,7 +26,7 @@
     "@fontsource/inter": "^5.0.13",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "astro": "^3.3.2",
+    "astro": "^3.3.3",
     "astro-icon": "^0.8.1",
     "eslint": "^8.51.0",
     "eslint-plugin-astro": "^0.29.1",
