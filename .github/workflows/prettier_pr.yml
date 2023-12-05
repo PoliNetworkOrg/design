@@ -1,4 +1,4 @@
-name: Fix Peer Dependencies
+name: Prettier PR
 
 on:
   push:
@@ -21,11 +21,14 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Fix peer dependencies
+      - name: Yarn upgrade
         run: yarn upgrade
-
+        
+      - name: Add prettier
+        run: yarn add --dev prettier
+        
       - name: Prettier
-        run: prettier . --write
+        run: yarn prettier . --write
 
       - name: Git setup
         run: |
@@ -41,7 +44,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "Fix conflicting peer dependencies"
-          title: "Fix conflicting peer dependencies"
-          body: "This pull request fixes conflicting peer dependencies."
+          commit-message: "Prettier"
+          title: "Prettier"
+          body: "Prettier"
           branch-suffix: timestamp
