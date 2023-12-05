@@ -24,6 +24,9 @@ jobs:
       - name: Fix peer dependencies
         run: npm update
 
+      - name: Prettier
+        run: prettier . --write
+
       - name: Git setup
         run: |
           git config --local user.email "action@github.com"
