@@ -1,0 +1,50 @@
+name: Prettier PR
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  fix-peer-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Yarn upgrade
+        run: yarn upgrade
+        
+      - name: Add prettier
+        run: yarn add --dev prettier
+        
+      - name: Prettier
+        run: yarn prettier . --write
+
+      - name: Git setup
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Fix conflicting peer dependencies" || true
+          git pull || true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: "Prettier"
+          title: "Prettier"
+          body: "Prettier"
+          branch-suffix: timestamp
