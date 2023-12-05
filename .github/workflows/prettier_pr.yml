@@ -1,4 +1,4 @@
-name: Fix Peer Dependencies
+name: Prettier PR
 
 on:
   push:
