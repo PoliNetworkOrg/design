@@ -27,7 +27,6 @@ jobs:
      
       - name: Install yarn (packages missing)
         run: |
-          yarn add --os=linux --cpu=x64 sharp
           yarn add --force @img/sharp-linux-x64
       
       - name: Run format check
