@@ -24,12 +24,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-     
-      - name: Install yarn (packages missing)
-        run: |
-          yarn add --os=linux --cpu=x64 sharp
-          yarn add --force @img/sharp-linux-x64
-      
+          
       - name: Run format check
         run: yarn format:check
       - name: Run lint
