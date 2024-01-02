@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
-import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import WindiCSS from 'vite-plugin-windicss';
@@ -23,9 +22,6 @@ export default defineConfig({
 
 	integrations: [
 		sitemap(),
-		image({
-			serviceEntryPoint: '@astrojs/image/sharp',
-		}),
 		mdx(),
 
 		/* Disable this integration if you don't use Google Analytics (or other external script). */
