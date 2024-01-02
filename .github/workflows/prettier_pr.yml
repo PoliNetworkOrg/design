@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - '*'
+  workflow_dispatch:
 
 jobs:
   fix-peer-dependencies:
