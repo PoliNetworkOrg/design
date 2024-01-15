@@ -32,7 +32,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "limax": "^4.1.0",
     "mdast-util-to-string": "^4.0.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.2",
     "prettier-plugin-astro": "^0.12.1",
     "reading-time": "^1.5.0",
     "sharp": "^0.33.1",
