@@ -84,7 +84,7 @@
     unist-util-visit "^4.1.2"
     vfile "^5.3.7"
 
-"@astrojs/partytown@^2.0.1":
+"@astrojs/partytown@^2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@astrojs/partytown/-/partytown-2.0.4.tgz#402ebabf2813f916bd9fb9fb8a85b0cb98133d03"
   integrity sha512-yC1smFLOBn7CWNAzaigXAr4bSJSgRJYF4g9jDuSR0NbShLd1SVUpRm9QOmOIrfSFGh2YtZEW8gnwvI5SZw+WmA==
@@ -2803,7 +2803,7 @@ eslint-compat-utils@^0.4.0:
   dependencies:
     semver "^7.5.4"
 
-eslint-plugin-astro@^0.31.0:
+eslint-plugin-astro@^0.31.3:
   version "0.31.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-astro/-/eslint-plugin-astro-0.31.3.tgz#4f1f3b7abdf69893b0c8b53a6053614c5a810d09"
   integrity sha512-dxNT4cusvLiWFT0ebTd7HP9GixZbua7QYARD1ilqhJEANCSJA7RIas57vnD1PHNDCdYyTit7JU4NDPLWkcG2HA==
@@ -6062,10 +6062,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==
 
-prettier-plugin-astro@^0.12.1:
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.12.3.tgz#5e581f71b834cb73a840ffd44381812f236a7a60"
-  integrity sha512-GthUSu3zCvmtVyqlArosez0xE08vSJ0R1sWurxIWpABaCkNGYFANoUdFkqmIo54EV2uPLGcVJzOucWvCjPBWvg==
+prettier-plugin-astro@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-astro/-/prettier-plugin-astro-0.13.0.tgz#0e1ff91caae17cad5b9493eb55bbd7114515bc5b"
+  integrity sha512-5HrJNnPmZqTUNoA97zn4gNQv9BgVhv+et03314WpQ9H9N8m2L9OSV798olwmG2YLXPl1iSstlJCR1zB3x5xG4g==
   dependencies:
     "@astrojs/compiler" "^1.5.5"
     prettier "^3.0.0"
