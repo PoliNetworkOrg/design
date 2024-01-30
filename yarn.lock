@@ -1468,7 +1468,6 @@ astro-eslint-parser@^0.16.0:
     espree "^9.0.0"
     semver "^7.3.8"
 
-
 astro-icon@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/astro-icon/-/astro-icon-1.0.3.tgz#9acf9cc2c0c402cffff24daacc6e400a36973cb2"
