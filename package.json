@@ -35,7 +35,7 @@
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "reading-time": "^1.5.0",
-    "sharp": "^0.33.3",
+    "sharp": "^0.33.4",
     "subfont": "^6.12.5",
     "typescript": "^5.4.4",
     "vite-plugin-windicss": "^1.9.3",
