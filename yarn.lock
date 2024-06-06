@@ -79,7 +79,7 @@
     unist-util-visit "^4.1.2"
     vfile "^5.3.7"
 
-"@astrojs/partytown@^2.0.4":
+"@astrojs/partytown@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@astrojs/partytown/-/partytown-2.1.0.tgz#a539946dd233af57b5ef478120690d0838202734"
   integrity sha512-9fjvTx2hTQpirUh1HnZZtFQaBz2R5ixrrmU/Zam3VZ9CoR3frqtnqg/Dt/i5C3UAlwiN0i8VuKxPx5cHP8yY5A==
