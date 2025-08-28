@@ -5,7 +5,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "LBZc5PsPZdD4jjPSNx4ZCy",
+      "id": "Gh4u6mP8tCqD8tMpTAuDWD",
       "year": 1,
       "section": 1,
       "display_name": "C1 Primo anno LT"
@@ -14,7 +14,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "Jg7mY8wyYHe2P4Wo3FtDHM",
+      "id": "KRofnf6Jup43w5EMH2sxxy",
       "year": 1,
       "section": 2,
       "display_name": "C2 Primo anno LT"
@@ -23,7 +23,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "JjmQHPPVCKY3lONcz8PDFA",
+      "id": "FsRCOFI7PYf2644MCfIbAq",
       "year": 1,
       "section": 3,
       "display_name": "C3 Primo anno LT"
@@ -32,7 +32,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "GOm7AZnhsB63ycvXByWvKQ",
+      "id": "JAePAwGUvrkLhpbJWhcI7B",
       "year": 2,
       "section": 1,
       "display_name": "C1 Secondo anno LT"
@@ -41,7 +41,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "KetGWcVr4Kq9nkAOVCLS6h",
+      "id": "J06lGzVeBtY22T3e1RBXVb",
       "year": 2,
       "section": 2,
       "display_name": "C2 Secondo anno LT"
@@ -50,7 +50,7 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "LU6ChhePNXe2cYbZhC12Jg",
+      "id": "L5K4bUdHmuhA2rVcEPwtVH",
       "year": 2,
       "section": 3,
       "display_name": "C3 Secondo anno LT"
@@ -59,88 +59,53 @@
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "Fu7cqu41OhgKelc9PQdM4J",
+      "id": "BJYbMLFOpjJGQhidY8giXo",
       "year": 3,
       "section": 1,
-      "display_name": "Sintesi C1 Terzo anno LT"
+      "display_name": "C1 Terzo anno LT"
     },
     {
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "EE5J1qnezTJ9v3Q1mLOp1y",
+      "id": "HIdMImaa9PH3Qrh9JO8CWM",
       "year": 3,
       "section": 2,
-      "display_name": "Sintesi C2 Terzo anno LT"
+      "display_name": "C2 Terzo anno LT"
     },
     {
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "EyxHgbGbF4i6Ej0WP7ushb",
+      "id": "LbmODPYV4qn0HnvijuriK7",
       "year": 3,
       "section": 3,
-      "display_name": "Sintesi C3 Terzo anno LT"
+      "display_name": "C3 Terzo anno LT"
     },
     {
       "course_id": "c",
       "group_id": "1",
       "platform": "wa",
-      "id": "BENikZgeKsv5wWGBmgHROp",
+      "id": "CWjNVBZmKuz8Je9w59JehU",
       "year": 4,
       "section": 1,
-      "display_name": "C1 1st year LM"
+      "display_name": "Generale WA"
     },
     {
       "course_id": "c",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "JDYbDUAemWW4GjwfPZDHSq",
+      "group_id": "2",
+      "platform": "tg",
+      "id": "Co7qy507ELthZGNk",
+      "prefix": "joinchat",
       "year": 4,
-      "section": 2,
-      "display_name": "C2 1st year LM"
-    },
-    {
-      "course_id": "c",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "GuyeBwT5ABT8R2Ny2uyzYL",
-      "year": 4,
-      "section": 3,
-      "display_name": "C3 1st year LM"
-    },
-    {
-      "course_id": "c",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "ECvZKHGrHefAHsAbvXANTQ",
-      "year": 5,
       "section": 1,
-      "display_name": "C1 2nd year LM"
-    },
-    {
-      "course_id": "c",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "GcrHNDmweLoCBQXmdJF5Ou",
-      "year": 5,
-      "section": 2,
-      "display_name": "C2 2nd year LM"
-    },
-    {
-      "course_id": "c",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "FHXzvvKiBOBBdxT9rbzjuJ",
-      "year": 5,
-      "section": 3,
-      "display_name": "C3 2nd year LM"
+      "display_name": "Generale TG"
     },
     {
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "BbjnvVwR2vkIJrnGd458jr",
+      "id": "DC951jecmUI1KqUeOQpoFz",
       "year": 1,
       "section": 1,
       "display_name": "M1 Primo anno LT"
@@ -149,7 +114,7 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "Dip3wlmJzfCAjeCakOKrmu",
+      "id": "GrYV5hGK1vH3wZDHt0jGSG",
       "year": 1,
       "section": 2,
       "display_name": "M2 Primo anno LT"
@@ -158,7 +123,7 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "HkYy1N29EHa9ZQGdAu2ZEB",
+      "id": "CNYrkwFI5ct03jbBvBjY3z",
       "year": 1,
       "section": 3,
       "display_name": "M3 Primo anno LT"
@@ -167,7 +132,7 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "BIDec6gE8nu6e7s6iXN8Fl",
+      "id": "CWZ2U5mmsXs4QpaBsBnrmH",
       "year": 2,
       "section": 1,
       "display_name": "M1 Secondo anno LT"
@@ -176,7 +141,7 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "LLZxCzSIcjS5Y4hfS8ottq",
+      "id": "GspMXdf1FRH7upqLYHyB3h ",
       "year": 2,
       "section": 2,
       "display_name": "M2 Secondo anno LT"
@@ -185,7 +150,7 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "Cdcw1FftajM3n7wCYNVZHM",
+      "id": "G65PIyGy7VnGuzWp54kq5W",
       "year": 2,
       "section": 3,
       "display_name": "M3 Secondo anno LT"
@@ -194,70 +159,53 @@
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "JxSCWZk7DUw1g3GdcCN9NH",
+      "id": "DX12hJOakg18HaE7jvJEU7",
       "year": 3,
       "section": 1,
-      "display_name": "Sintesi M1 Terzo anno LT"
+      "display_name": "M1 Terzo anno LT"
     },
     {
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "KeQ6g8da6DRJpeBIO9qtE7",
+      "id": "IkGCofdxflU0Se49u6RIcC",
       "year": 3,
       "section": 2,
-      "display_name": "Sintesi M2 Terzo anno LT"
+      "display_name": "M2 Terzo anno LT"
     },
     {
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "LWFf1weQZRoJGmkx0sO5Su",
+      "id": "KnG43d56WSI7XV5U8PtFiC",
       "year": 3,
       "section": 3,
-      "display_name": "Sintesi M3 Terzo anno LT"
+      "display_name": "M3 Terzo anno LT"
     },
     {
       "course_id": "m",
       "group_id": "1",
       "platform": "wa",
-      "id": "FM0FaPmZGYVHcZzKjtqIN8",
+      "id": "EUjiV2ephqJ4rPyJ74MRKU",
       "year": 4,
       "section": 1,
-      "display_name": "M1 1st year LM"
+      "display_name": "Generale WA"
     },
     {
       "course_id": "m",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "LAnrAp4jV7jHfI3rDd2wvR",
+      "group_id": "2",
+      "platform": "tg",
+      "id": "Mx0c9lQbsoYyN2Nk",
+      "prefix": "joinchat",
       "year": 4,
-      "section": 2,
-      "display_name": "M2 1st year LM"
-    },
-    {
-      "course_id": "m",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "DsFVeq2brct6q5ySbjFkxK",
-      "year": 5,
       "section": 1,
-      "display_name": "M1 2nd year LM"
-    },
-    {
-      "course_id": "m",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "I8I2iY4GWAcHXq7qcci444",
-      "year": 5,
-      "section": 2,
-      "display_name": "M2 2nd year LM"
+      "display_name": "Generale TG"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "KpAQyC2KHKw3aWJ0yJZ0zE",
+      "id": "BQ0Ij1Kj94a8ydolmBDDoW",
       "year": 1,
       "section": 1,
       "display_name": "P1 Primo anno LT"
@@ -266,7 +214,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "DQRCjF33XfZLJONKcQsos3",
+      "id": "GlmAsc8oWOyCwHEIGLAkkY",
       "year": 1,
       "section": 2,
       "display_name": "P2 Primo anno LT"
@@ -275,7 +223,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "CxmRSxZAfe70LajqySfgQd",
+      "id": "EmtcX354hdDHk28a4pxmyh",
       "year": 1,
       "section": 3,
       "display_name": "P3 Primo anno LT"
@@ -284,7 +232,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "Ikdom7uCJWRJma7YiJLFbu",
+      "id": "BcHXXujNxCY2WFaW6FjoqA",
       "year": 1,
       "section": 4,
       "display_name": "P4 Primo anno LT"
@@ -293,7 +241,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "C5HIWI5IGZhIEd4m7aUYIU",
+      "id": "BbI6MHKPc1iEAjdqsQnaNA",
       "year": 1,
       "section": 5,
       "display_name": "P5 Primo anno LT"
@@ -302,7 +250,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "LPEWJKIXXIr6gUjr4crkXU",
+      "id": "F6ZSq5xK5NiHDw0C9L4Qnh",
       "year": 2,
       "section": 1,
       "display_name": "P1 Secondo anno LT"
@@ -311,7 +259,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "EKNWuOMmYh3CNSzXedyCbZ",
+      "id": "KAd4ysGU5xK7Q28vE5TYL4",
       "year": 2,
       "section": 2,
       "display_name": "P2 Secondo anno LT"
@@ -320,7 +268,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "BsXo9t6Uf7OKKrBN0mvUzh",
+      "id": "BmYIQRyOpfL8iIjNNX17SZ",
       "year": 2,
       "section": 3,
       "display_name": "P3 Secondo anno LT"
@@ -329,7 +277,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "BiT5VXvibTn2eodTKk5T3x",
+      "id": "LwmRNhSSWxW5QRg2VZcvdl",
       "year": 2,
       "section": 4,
       "display_name": "P4 Secondo anno LT"
@@ -338,7 +286,7 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "Be9lpu4LvcUL7dMO04bd2N",
+      "id": "BJ70nu0tD7oCAmxLRJgesf",
       "year": 2,
       "section": 5,
       "display_name": "P5 Secondo anno LT"
@@ -347,88 +295,71 @@
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "HMI5O0ZYZJmGDTlOVmkhEF",
+      "id": "BcAAmZZKqh62grxcn2wvas",
       "year": 3,
       "section": 1,
-      "display_name": "Sintesi P1 Terzo anno LT"
+      "display_name": "P1 Terzo anno LT"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "CLLIo1GnrUDKWfvmHoVSTA",
+      "id": "IKapMdNjn8SG0ZkgYrt03C",
       "year": 3,
       "section": 2,
-      "display_name": "Sintesi P2 Terzo anno LT"
+      "display_name": "P2 Terzo anno LT"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "FAVfuxilxZZ84k2IpWkkO6",
+      "id": "HjBfLGG9TOP8VeIi2SQIzm",
       "year": 3,
       "section": 3,
-      "display_name": "Sintesi P3 Terzo anno LT"
+      "display_name": "P3 Terzo anno LT"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "DImGCipXV6QJTNdMabKW1y",
+      "id": "HibTGqtqRlS5Be0OzwH48j",
       "year": 3,
       "section": 4,
-      "display_name": "Sintesi P4 Terzo anno LT"
+      "display_name": "P4 Terzo anno LT"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "IBCXe30e4nbEOXNuYzizAW",
+      "id": "JG1d8HGDCIq2puhUXphrNv",
       "year": 3,
       "section": 5,
-      "display_name": "Sintesi P5 Terzo anno LT"
+      "display_name": "P5 Terzo anno LT"
     },
     {
       "course_id": "p",
       "group_id": "1",
       "platform": "wa",
-      "id": "FQ8ESmERGsJGO6UsTybPoH",
+      "id": "Mx0c9lQbsoYyN2Nk",
       "year": 4,
       "section": 1,
-      "display_name": "P1 1st year LM"
+      "display_name": "Generale WA"
     },
     {
       "course_id": "p",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "HvMCItw8wjn6dFcBB9mT0a",
+      "group_id": "2",
+      "platform": "tg",
+      "id": "Mx0c9lQbsoYyN2Nk",
+      "prefix": "joinchat",
       "year": 4,
-      "section": 2,
-      "display_name": "P2 1st year LM"
-    },
-    {
-      "course_id": "p",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "COtSAvvGoRcKkDe7dddydx",
-      "year": 5,
       "section": 1,
-      "display_name": "P1 2nd year LM"
-    },
-    {
-      "course_id": "p",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "KKwDczMWOjm6Qc6amR4bN2",
-      "year": 5,
-      "section": 2,
-      "display_name": "P2 2nd year LM"
+      "display_name": "Generale TG"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "BpOLkTTMjjrIgFdHueH8lS",
+      "id": "KEmPlcyLbClGlifWs46mFJ",
       "year": 1,
       "section": 1,
       "display_name": "I1 Primo anno LT"
@@ -437,7 +368,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "HlmjmZ6sDF67npcpjbFdIu",
+      "id": "KPFPOigZI3wAZV4e8iJeHD",
       "year": 1,
       "section": 2,
       "display_name": "I2 Primo anno LT"
@@ -446,7 +377,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "G5WVSuGLebt2KFi2QXKfec",
+      "id": "CrJPuJkwCEf9scY5K27h91",
       "year": 1,
       "section": 3,
       "display_name": "I3 Primo anno LT"
@@ -455,7 +386,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "GfoxSUbji3l4voxmiXkwGu",
+      "id": "BkYUkIvfTaLHBJjzwij2qI",
       "year": 1,
       "section": 4,
       "display_name": "I4 Primo anno LT"
@@ -464,7 +395,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "HoSTLluy6mLBPEFG24r00p",
+      "id": "GFBC8mgWfDcBXBZ6FAVqCq",
       "year": 1,
       "section": 5,
       "display_name": "I5 Primo anno LT"
@@ -473,7 +404,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "IeOc0ABa3lC2pcD3ffMAQs",
+      "id": "Crkcri7GQJb2m6J35mBufI",
       "year": 2,
       "section": 1,
       "display_name": "I1 Secondo anno LT"
@@ -482,7 +413,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "GJs34P4SsrnD5Z0RCrs6hN",
+      "id": "FQhDH2gtpgn8RUUiTuxnH2",
       "year": 2,
       "section": 2,
       "display_name": "I2 Secondo anno LT"
@@ -491,7 +422,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "FEJ7aJjXIDOICay1r3Gz1I",
+      "id": "FOBSkKTiXnGArVtsEoTMZ2",
       "year": 2,
       "section": 3,
       "display_name": "I3 Secondo anno LT"
@@ -500,7 +431,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "GInqjrKVVKP7rULodsWZTU",
+      "id": "IYg4hLuuSxoDjC2DQHRpfC",
       "year": 2,
       "section": 4,
       "display_name": "I4 Secondo anno LT"
@@ -509,7 +440,7 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "EFBxmagdW6Q9szs3iBrZY8",
+      "id": "LiqLFZ25G1z7GiIQmdi7y4",
       "year": 2,
       "section": 5,
       "display_name": "I5 Secondo anno LT"
@@ -518,208 +449,121 @@
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "Fndr8EQPJmQD4wnqqCsibw",
+      "id": "EfXn7dmjf7REXDgCtmhbCd",
       "year": 3,
       "section": 1,
-      "display_name": "Sintesi I1 Terzo anno LT"
+      "display_name": "I1 Terzo anno LT"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "GHGTg5ZmkRFGO1JSsVBtS7",
+      "id": "KP3kA9c35PEDbDHfXTbBWe",
       "year": 3,
       "section": 2,
-      "display_name": "Sintesi I2 Terzo anno LT"
+      "display_name": "I2 Terzo anno LT"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "Dbuy1C62xyW0pXrbyUpPrT",
+      "id": "FDpIy7aVD642Ag6fL7MM8d",
       "year": 3,
       "section": 3,
-      "display_name": "Sintesi I3 Terzo anno LT"
+      "display_name": "I3 Terzo anno LT"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "Ej0edcy9ewi7GIi9fE0Fft",
+      "id": "EZ81FkinJAGJ4AOyBmUKx5",
       "year": 3,
       "section": 4,
-      "display_name": "Sintesi I4 Terzo anno LT"
+      "display_name": "I4 Terzo anno LT"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "FcPcbYEOioVIxnTCNnwFmw",
+      "id": "H7TgxZ1J2Uv8WZVIpQgHsf",
       "year": 3,
       "section": 5,
-      "display_name": "Sintesi I5 Terzo anno LT"
+      "display_name": "I5 Terzo anno LT"
     },
     {
       "course_id": "i",
       "group_id": "1",
       "platform": "wa",
-      "id": "G44PlYaUqE36x0YPBGgk3y",
+      "id": "Mx0c9lQbsoYyN2Nk",
       "year": 4,
       "section": 1,
-      "display_name": "IS1 1st year LM"
+      "display_name": "Generale WA"
     },
     {
       "course_id": "i",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "FeGgbRma1XDHbCRjvX5YLF",
+      "group_id": "2",
+      "platform": "tg",
+      "id": "Mx0c9lQbsoYyN2Nk",
       "year": 4,
-      "section": 2,
-      "display_name": "IS2 1st year LM"
-    },
-    {
-      "course_id": "i",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "ItoF1eq7jc22mI4JaIIAq5",
-      "year": 4,
-      "section": 3,
-      "display_name": "IS3 1st year LM"
-    },
-    {
-      "course_id": "i",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "IBSec53Zm5ND9ZytRHYQ7I",
-      "year": 5,
       "section": 1,
-      "display_name": "IS1 2nd year LM"
-    },
-    {
-      "course_id": "i",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "JTZLojre9AC64q2EOAbbeA",
-      "year": 5,
-      "section": 2,
-      "display_name": "IS2 2nd year LM"
-    },
-    {
-      "course_id": "i",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "F2WOhO46JLG16kit08le2M",
-      "year": 5,
-      "section": 3,
-      "display_name": "IS3 2st year LM"
+      "display_name": "Generale TG"
     },
     {
       "course_id": "mas",
       "group_id": "1",
       "platform": "wa",
-      "id": "IB4zgc9HCGr3c1HlHTfo4M",
+      "id": "EUjiV2ephqJ4rPyJ74MRKU",
       "year": 4,
       "section": 1,
-      "display_name": "D&E1 1st year LM"
+      "display_name": "D&E Generale WA"
     },
     {
       "course_id": "mas",
-      "group_id": "1",
+      "group_id": "2",
       "platform": "wa",
+      "id": "CEl0BpElfuGBPOd7ikdn9X",
+      "year": 4,
+      "section": 1,
+      "display_name": "PSSD Generale WA"
+    },
+    {
+      "course_id": "mas",
+      "group_id": "3",
+      "platform": "wa",
+      "id": "FeyszVuP3nd5amKwwOfQoD",
+      "year": 4,
+      "section": 1,
+      "display_name": "DID Generale WA"
+    },
+    {
+      "course_id": "mas",
+      "group_id": "4",
+      "platform": "tg",
       "id": "ET1AvtxUqYKGSwC8zJjXYt",
-      "year": 4,
-      "section": 2,
-      "display_name": "D&E2 1st year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "LjZdabLznmJ1DKZjHJjSPT",
-      "year": 5,
-      "section": 1,
-      "display_name": "D&E1 2nd year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "K17WGJApM7oHvvDqVH7QGK",
-      "year": 5,
-      "section": 2,
-      "display_name": "D&E2 2nd year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "K9GA3fHnuggHUGwuA95rxb",
+      "prefix": "joinchat",
       "year": 4,
       "section": 1,
-      "display_name": "PSSD1 1st year LM"
+      "display_name": "D&E Generale TG"
     },
     {
       "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "FrpyS29By3J3FsxiEZco0Q",
-      "year": 4,
-      "section": 2,
-      "display_name": "PSSD2 1st year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "HPRkgntvdC00dY2XW7RIeM",
-      "year": 5,
-      "section": 1,
-      "display_name": "PSSD1 2nd year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "DxPIkioEqa312u9l7KP5xf",
-      "year": 5,
-      "section": 2,
-      "display_name": "PSSD2 2nd year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "LVEhR5fz7liGpoP7HMePnI",
+      "group_id": "5",
+      "platform": "tg",
+      "id": "xoNfU5FDZI9jMGNk",
+      "prefix": "joinchat",
       "year": 4,
       "section": 1,
-      "display_name": "DID1 1st year LM"
+      "display_name": "PSSD Generale TG"
     },
     {
       "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "KVuPQiXZEVOBtMkdYQR5Px",
+      "group_id": "6",
+      "platform": "tg",
+      "id": "5GXNO4xqRJdkNjQ0",
+      "prefix": "joinchat",
       "year": 4,
-      "section": 2,
-      "display_name": "DID2 1st year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "CF0hxuDxVyE3jM0SNUQWMT",
-      "year": 5,
       "section": 1,
-      "display_name": "DID1 2nd year LM"
-    },
-    {
-      "course_id": "mas",
-      "group_id": "1",
-      "platform": "wa",
-      "id": "CxV25xiQtFvElJNdHW0plb",
-      "year": 5,
-      "section": 2,
-      "display_name": "DID2 2nd year LM"
+      "display_name": "DID Generale TG"
     }
   ]
 }
