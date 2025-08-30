@@ -8,7 +8,7 @@ export interface Props {
 	prefix_tg?: string;
 	group_id_tg: string;
 	prefix_wa?: string;
-	group_id_wa: string;
+	group_id_wa?: string;
 }
 const { slug, Language, prefix_tg, group_id_tg, prefix_wa, group_id_wa } = Astro.props;
 ---
@@ -17,7 +17,9 @@ const { slug, Language, prefix_tg, group_id_tg, prefix_wa, group_id_wa } = Astro
 	class="mx-auto w-[90%] md:w-[60%] text-white overflow-hidden flex flex-col items-center my-[4vh] rounded-[20px] shadow_box"
 >
 	<h2 class="mt-50px mb-15px text-3xl w-9/10 md:w-4/6 text-center"><slot /></h2>
-	<div class="grid grid-cols-2 gap-6 my-15px">
+	<div class="grid grid-cols-2 gap-6 my-15px w-full max-w-[320px]">
+		{group_id_wa ? (
+			<>
 		<ButtonUrl
 			icon_class="fa fa-telegram"
 			classes="cursor-pointer w-full hover:bg-fucsia hover:text-white bg-white no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white rounded-lg border-1 border-solid text-fucsia border-fucsia"
@@ -35,7 +37,17 @@ const { slug, Language, prefix_tg, group_id_tg, prefix_wa, group_id_wa } = Astro
 			group_id={group_id_wa}
 			prefix={prefix_wa}
 			random={slug + '--' + Math.random()}
+		/></>) : (
+			<ButtonUrl
+			icon_class="fa fa-telegram"
+			classes="col-start-1 col-end-3 cursor-pointer w-full hover:bg-fucsia hover:text-white bg-white no-underline uppercase duration-400 transition-color text-sm tracking-[0px] border-white rounded-lg border-1 border-solid text-fucsia border-fucsia"
+			name={Language == 'it' ? 'Gruppo' : 'Group'}
+			platform="tg"
+			group_id={group_id_tg}
+			prefix={prefix_tg}
+			random={slug + '--' + Math.random()}
 		/>
+		)}
 	</div>
 	<article class="w-full overflow-hidden">
 		<div
